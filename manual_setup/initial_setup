@@ -1,0 +1,42 @@
+ 1. Vagrant plugins
+   Execute below command in your computer to install hostmanager plugin
+   
+   $ vagrant plugin install vagrant-hostmanager
+
+2. Clean vagrant environment of any running VM
+
+   Check if there are any running vm
+   
+   $ vagrant global-status
+   
+   If there is any, go to the directory and run 
+   
+   $ vagrant destroy [name|id]
+  
+   $ vagrant global-status --prune
+
+3. Create a directory for the project:
+   $ mkdir manual_setup
+   
+   Change into the directory
+   $ cd manual_setup
+
+4. Initialize the Vagrant environment:
+   
+   $ vagrant init
+   
+   This will create a `Vagrantfile` in your directory.
+
+   The `Vagrantfile` defines the configuration for your VMs, including base boxes, network configuration, and provisioning settings.
+
+5. Edit the Vagrantfile to define five virtual machines: one for the Web tier, one for the App tier, and three for the Database tier comprising of MYSQL, Memcached and Rabbit MQ
+
+   An example of the Vagrantfile is in the manual_setup folder
+
+6. Launch the VMs
+   
+   $ vagrant up
+
+7. Provision the services on each VM by ssh into them and run the appropriate commands from the terminals. 
+  
+   
