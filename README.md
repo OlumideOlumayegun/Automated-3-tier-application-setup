@@ -39,12 +39,12 @@ Clone this repository to your local machine:
 
 ```bash
 git clone https://github.com/OlumideOlumayegun/Automated-3-tier-application-setup.git
-cd cd Automated-3-tier-application-setup/automated_setup
+cd Automated-3-tier-application-setup/automated_setup
 ```
 
-### Step 2: Initialize and Start the Vagrant Environment
+### Step 2: Initialise and Start the Vagrant Environment
 
-Run the following command to initialize and start the virtual machines:
+Run the following command to initialise and start the virtual machines:
 
 ```bash
 vagrant up
