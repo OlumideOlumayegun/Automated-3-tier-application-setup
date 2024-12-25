@@ -78,7 +78,7 @@ Once the VMs are up and running, you can access them using SSH:
   vagrant ssh mc01
   ```
 
-  - **RabbitMQ**:
+- **RabbitMQ**:
   ```bash
   vagrant ssh rmq01
   ```
