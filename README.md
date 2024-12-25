@@ -1,6 +1,5 @@
 # Automated Multi-Tier Application Setup using Vagrant, VirtualBox, and Bash Scripting with Nginx, Apache Tomcat, MySQL, Memcached, and RabbitMQ
 
-```markdown
 This project automates the setup of a multi-tier application environment locally using **Vagrant**, **VirtualBox**, and **Bash scripting** for the deployment of a Java application social networking app.  
 
 The services involved in the project are:
@@ -119,8 +118,5 @@ This project provides an automated way to set up a multi-tier architecture on yo
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
----
 
 This `README.md` gives clear instructions on how to set up the project, explaining the functionality of the scripts and the project structure, along with specific details for testing and interacting with the environment. Feel free to adjust any parts to suit your specific setup or modifications!
